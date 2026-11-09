@@ -1,0 +1,18 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: boardking
+      POSTGRES_PASSWORD: change_me
+      POSTGRES_DB: boardking
+    volumes: [pgdata:/var/lib/postgresql/data]
+  bot:
+    build: .
+    restart: always
+    depends_on: [db]
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+psycopg2://boardking:change_me@db:5432/boardking
+volumes:
+  pgdata:

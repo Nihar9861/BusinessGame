@@ -1,0 +1,173 @@
+{
+ "chance": [
+  {
+   "id": "c1",
+   "text": "Bonus mila! Collect ₹1,500",
+   "type": "cash",
+   "amount": 1500
+  },
+  {
+   "id": "c2",
+   "text": "Speeding fine. Pay ₹500",
+   "type": "cash",
+   "amount": -500
+  },
+  {
+   "id": "c3",
+   "text": "Advance to START. Collect salary",
+   "type": "move_to",
+   "tile": 0
+  },
+  {
+   "id": "c4",
+   "text": "Trip to Mumbai! Advance to Mumbai",
+   "type": "move_to",
+   "tile": 39
+  },
+  {
+   "id": "c5",
+   "text": "Go back 3 spaces",
+   "type": "move_by",
+   "steps": -3
+  },
+  {
+   "id": "c6",
+   "text": "Move forward 4 spaces",
+   "type": "move_by",
+   "steps": 4
+  },
+  {
+   "id": "c7",
+   "text": "Go directly to Jail",
+   "type": "goto_jail"
+  },
+  {
+   "id": "c8",
+   "text": "Get Out of Jail Free card",
+   "type": "jail_free"
+  },
+  {
+   "id": "c9",
+   "text": "Property repairs: ₹250 per house, ₹1,000 per hotel",
+   "type": "repair",
+   "house": 250,
+   "hotel": 1000
+  },
+  {
+   "id": "c10",
+   "text": "Birthday! Collect ₹300 from every player",
+   "type": "collect_all",
+   "amount": 300
+  },
+  {
+   "id": "c11",
+   "text": "You won a quiz. Collect ₹2,000",
+   "type": "cash",
+   "amount": 2000
+  },
+  {
+   "id": "c12",
+   "text": "Advance to Jaipur",
+   "type": "move_to",
+   "tile": 16
+  },
+  {
+   "id": "c13",
+   "text": "Pay each player ₹200",
+   "type": "pay_all",
+   "amount": 200
+  },
+  {
+   "id": "c14",
+   "text": "Medical bill. Pay ₹1,000",
+   "type": "cash",
+   "amount": -1000
+  }
+ ],
+ "community": [
+  {
+   "id": "e1",
+   "text": "Tax refund. Collect ₹2,000",
+   "type": "cash",
+   "amount": 2000
+  },
+  {
+   "id": "e2",
+   "text": "School fees. Pay ₹1,500",
+   "type": "cash",
+   "amount": -1500
+  },
+  {
+   "id": "e3",
+   "text": "Festival bonus. Collect ₹1,000",
+   "type": "cash",
+   "amount": 1000
+  },
+  {
+   "id": "e4",
+   "text": "Advance to START. Collect salary",
+   "type": "move_to",
+   "tile": 0
+  },
+  {
+   "id": "e5",
+   "text": "Get Out of Jail Free card",
+   "type": "jail_free"
+  },
+  {
+   "id": "e6",
+   "text": "Go directly to Jail",
+   "type": "goto_jail"
+  },
+  {
+   "id": "e7",
+   "text": "Collect ₹500 from every player",
+   "type": "collect_all",
+   "amount": 500
+  },
+  {
+   "id": "e8",
+   "text": "Pay each player ₹300",
+   "type": "pay_all",
+   "amount": 300
+  },
+  {
+   "id": "e9",
+   "text": "Street repairs: ₹400 per house, ₹1,150 per hotel",
+   "type": "repair",
+   "house": 400,
+   "hotel": 1150
+  },
+  {
+   "id": "e10",
+   "text": "Insurance matured. Collect ₹1,000",
+   "type": "cash",
+   "amount": 1000
+  },
+  {
+   "id": "e11",
+   "text": "Hospital fees. Pay ₹1,000",
+   "type": "cash",
+   "amount": -1000
+  },
+  {
+   "id": "e12",
+   "text": "Move forward 2 spaces",
+   "type": "move_by",
+   "steps": 2
+  },
+  {
+   "id": "e13",
+   "text": "You found cash. Collect ₹500",
+   "type": "cash",
+   "amount": 500
+  },
+  {
+   "id": "e14",
+   "text": "Go back to Patna",
+   "type": "move_to",
+   "tile": 1,
+   "salary": false
+  }
+ ]
+}

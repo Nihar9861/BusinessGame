@@ -1,0 +1,505 @@
+{
+ "currency": "₹",
+ "groups": {
+  "brown": {
+   "color": "#8B5A2B",
+   "house_cost": 500
+  },
+  "sky": {
+   "color": "#7EC8E3",
+   "house_cost": 500
+  },
+  "pink": {
+   "color": "#E75480",
+   "house_cost": 1000
+  },
+  "orange": {
+   "color": "#F28C28",
+   "house_cost": 1000
+  },
+  "red": {
+   "color": "#D62828",
+   "house_cost": 1500
+  },
+  "yellow": {
+   "color": "#F4D03F",
+   "house_cost": 1500
+  },
+  "green": {
+   "color": "#2E9E5B",
+   "house_cost": 2000
+  },
+  "blue": {
+   "color": "#1F4E9E",
+   "house_cost": 2000
+  }
+ },
+ "tiles": [
+  {
+   "id": 0,
+   "name": "START",
+   "type": "start"
+  },
+  {
+   "id": 1,
+   "name": "Patna",
+   "type": "property",
+   "price": 600,
+   "group": "brown",
+   "rents": [
+    20,
+    100,
+    300,
+    900,
+    1600,
+    2200
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Event Card",
+   "type": "community"
+  },
+  {
+   "id": 3,
+   "name": "Ranchi",
+   "type": "property",
+   "price": 600,
+   "group": "brown",
+   "rents": [
+    20,
+    100,
+    300,
+    900,
+    1600,
+    2200
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Income Tax",
+   "type": "tax",
+   "amount": 2000
+  },
+  {
+   "id": 5,
+   "name": "Northern Rail",
+   "type": "railway",
+   "price": 2000,
+   "group": "railway",
+   "rents": [
+    250,
+    500,
+    1000,
+    2000
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Bhopal",
+   "type": "property",
+   "price": 1000,
+   "group": "sky",
+   "rents": [
+    60,
+    300,
+    900,
+    2700,
+    4800,
+    6600
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Chance",
+   "type": "chance"
+  },
+  {
+   "id": 8,
+   "name": "Raipur",
+   "type": "property",
+   "price": 1000,
+   "group": "sky",
+   "rents": [
+    60,
+    300,
+    900,
+    2700,
+    4800,
+    6600
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Indore",
+   "type": "property",
+   "price": 1200,
+   "group": "sky",
+   "rents": [
+    80,
+    400,
+    1200,
+    3600,
+    6400,
+    8800
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Jail",
+   "type": "jail"
+  },
+  {
+   "id": 11,
+   "name": "Lucknow",
+   "type": "property",
+   "price": 1400,
+   "group": "pink",
+   "rents": [
+    100,
+    500,
+    1500,
+    4500,
+    8000,
+    11000
+   ]
+  },
+  {
+   "id": 12,
+   "name": "Electric Co",
+   "type": "utility",
+   "price": 1500,
+   "group": "utility",
+   "rents": [
+    4,
+    10
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Kanpur",
+   "type": "property",
+   "price": 1400,
+   "group": "pink",
+   "rents": [
+    100,
+    500,
+    1500,
+    4500,
+    8000,
+    11000
+   ]
+  },
+  {
+   "id": 14,
+   "name": "Nagpur",
+   "type": "property",
+   "price": 1600,
+   "group": "pink",
+   "rents": [
+    120,
+    600,
+    1800,
+    5400,
+    9600,
+    13200
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Western Rail",
+   "type": "railway",
+   "price": 2000,
+   "group": "railway",
+   "rents": [
+    250,
+    500,
+    1000,
+    2000
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Jaipur",
+   "type": "property",
+   "price": 1800,
+   "group": "orange",
+   "rents": [
+    140,
+    700,
+    2100,
+    6300,
+    11200,
+    15400
+   ]
+  },
+  {
+   "id": 17,
+   "name": "Event Card",
+   "type": "community"
+  },
+  {
+   "id": 18,
+   "name": "Surat",
+   "type": "property",
+   "price": 1800,
+   "group": "orange",
+   "rents": [
+    140,
+    700,
+    2100,
+    6300,
+    11200,
+    15400
+   ]
+  },
+  {
+   "id": 19,
+   "name": "Pune",
+   "type": "property",
+   "price": 2000,
+   "group": "orange",
+   "rents": [
+    160,
+    800,
+    2400,
+    7200,
+    12800,
+    17600
+   ]
+  },
+  {
+   "id": 20,
+   "name": "Free Parking",
+   "type": "free_parking"
+  },
+  {
+   "id": 21,
+   "name": "Ahmedabad",
+   "type": "property",
+   "price": 2200,
+   "group": "red",
+   "rents": [
+    180,
+    900,
+    2700,
+    8100,
+    14400,
+    19800
+   ]
+  },
+  {
+   "id": 22,
+   "name": "Chance",
+   "type": "chance"
+  },
+  {
+   "id": 23,
+   "name": "Chandigarh",
+   "type": "property",
+   "price": 2200,
+   "group": "red",
+   "rents": [
+    180,
+    900,
+    2700,
+    8100,
+    14400,
+    19800
+   ]
+  },
+  {
+   "id": 24,
+   "name": "Kochi",
+   "type": "property",
+   "price": 2400,
+   "group": "red",
+   "rents": [
+    200,
+    1000,
+    3000,
+    9000,
+    16000,
+    22000
+   ]
+  },
+  {
+   "id": 25,
+   "name": "Southern Rail",
+   "type": "railway",
+   "price": 2000,
+   "group": "railway",
+   "rents": [
+    250,
+    500,
+    1000,
+    2000
+   ]
+  },
+  {
+   "id": 26,
+   "name": "Hyderabad",
+   "type": "property",
+   "price": 2600,
+   "group": "yellow",
+   "rents": [
+    220,
+    1100,
+    3300,
+    9900,
+    17600,
+    24200
+   ]
+  },
+  {
+   "id": 27,
+   "name": "Bengaluru",
+   "type": "property",
+   "price": 2600,
+   "group": "yellow",
+   "rents": [
+    220,
+    1100,
+    3300,
+    9900,
+    17600,
+    24200
+   ]
+  },
+  {
+   "id": 28,
+   "name": "Water Works",
+   "type": "utility",
+   "price": 1500,
+   "group": "utility",
+   "rents": [
+    4,
+    10
+   ]
+  },
+  {
+   "id": 29,
+   "name": "Chennai",
+   "type": "property",
+   "price": 2800,
+   "group": "yellow",
+   "rents": [
+    240,
+    1200,
+    3600,
+    10800,
+    19200,
+    26400
+   ]
+  },
+  {
+   "id": 30,
+   "name": "Go To Jail",
+   "type": "go_to_jail"
+  },
+  {
+   "id": 31,
+   "name": "Kolkata",
+   "type": "property",
+   "price": 3000,
+   "group": "green",
+   "rents": [
+    260,
+    1300,
+    3900,
+    11700,
+    20800,
+    28600
+   ]
+  },
+  {
+   "id": 32,
+   "name": "Goa",
+   "type": "property",
+   "price": 3000,
+   "group": "green",
+   "rents": [
+    260,
+    1300,
+    3900,
+    11700,
+    20800,
+    28600
+   ]
+  },
+  {
+   "id": 33,
+   "name": "Event Card",
+   "type": "community"
+  },
+  {
+   "id": 34,
+   "name": "Vizag",
+   "type": "property",
+   "price": 3200,
+   "group": "green",
+   "rents": [
+    280,
+    1400,
+    4200,
+    12600,
+    22400,
+    30800
+   ]
+  },
+  {
+   "id": 35,
+   "name": "Eastern Rail",
+   "type": "railway",
+   "price": 2000,
+   "group": "railway",
+   "rents": [
+    250,
+    500,
+    1000,
+    2000
+   ]
+  },
+  {
+   "id": 36,
+   "name": "Chance",
+   "type": "chance"
+  },
+  {
+   "id": 37,
+   "name": "Delhi",
+   "type": "property",
+   "price": 3500,
+   "group": "blue",
+   "rents": [
+    350,
+    1750,
+    5250,
+    15750,
+    28000,
+    38500
+   ]
+  },
+  {
+   "id": 38,
+   "name": "Luxury Tax",
+   "type": "tax",
+   "amount": 1000
+  },
+  {
+   "id": 39,
+   "name": "Mumbai",
+   "type": "property",
+   "price": 4000,
+   "group": "blue",
+   "rents": [
+    500,
+    2500,
+    7500,
+    22500,
+    40000,
+    55000
+   ]
+  }
+ ]
+}
